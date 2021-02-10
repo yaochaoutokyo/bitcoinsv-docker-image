@@ -17,4 +17,4 @@ So we also need to confirm that the timeout period is longer enough (around 3min
 docker stop -t 600 bitcoind
 ```
 
-When you run the full node as a pod in Kubernetes, be sure to add `terminationGracePeriodSeconds` to give the pod time to gracefully shutdown# bitcoinsv-docker-image
+When you run the full node as a pod in Kubernetes, be sure to add `terminationGracePeriodSeconds` to give the pod time to gracefully shutdown
